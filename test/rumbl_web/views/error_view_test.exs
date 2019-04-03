@@ -14,8 +14,5 @@ defmodule RumblWeb.ErrorViewTest do
            "Internal server error"
   end
 
-  test "render any other" do
-    assert render_to_string(RumblWeb.ErrorView, "505.html", []) ==
-           "Internal server error"
-  end
+
 end
